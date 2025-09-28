@@ -22,6 +22,9 @@ async def main():
     tools: list[dict] = []
     tool_name_client_map: dict[str, MCPClient | CustomMCPClient] = {}
 
+    #TODO:
+    # Test it later with implemented CustomMCPClient
+
     ums_mcp_client = await MCPClient.create("http://localhost:8006/mcp")
     await _collect_tools(ums_mcp_client, tools, tool_name_client_map)
 
