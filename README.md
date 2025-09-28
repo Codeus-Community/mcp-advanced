@@ -60,6 +60,8 @@ By completing this project, you will learn:
 ---
 
 # 🚀 Task:
+### If the task in the main branch is hard for you, then switch to the `with-detailed-description` branch
+
 ## Create MCP Server:
 0. Run [docker desctop with UMS](docker-compose.yml)
 1. Open [mcp_server](mcp_server) and review mcp server structure:
